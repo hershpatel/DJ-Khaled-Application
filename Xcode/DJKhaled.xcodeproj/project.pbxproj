@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A235611C2C8AB800CA3B9C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A235581C2C8AB800CA3B9C /* Icon-72.png */; };
+		67A235621C2C8AB800CA3B9C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A235591C2C8AB800CA3B9C /* Icon-Small-50.png */; };
+		67A235631C2C8AB800CA3B9C /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A2355A1C2C8AB800CA3B9C /* Icon-60.png */; };
+		67A235641C2C8AB800CA3B9C /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A2355B1C2C8AB800CA3B9C /* Icon-72@2x.png */; };
+		67A235651C2C8AB800CA3B9C /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A2355C1C2C8AB800CA3B9C /* Icon-Small-50@2x.png */; };
+		67A235661C2C8AB800CA3B9C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A2355D1C2C8AB800CA3B9C /* Icon.png */; };
+		67A235671C2C8AB800CA3B9C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A2355E1C2C8AB800CA3B9C /* Icon@2x.png */; };
+		67A235681C2C8AB800CA3B9C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A2355F1C2C8AB800CA3B9C /* iTunesArtwork.png */; };
+		67A235691C2C8AB800CA3B9C /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A235601C2C8AB800CA3B9C /* iTunesArtwork@2x.png */; };
+		67CD04081C39EA0000FBCD2C /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD03FD1C39EA0000FBCD2C /* 8.wav */; };
+		67CD04091C39EA0000FBCD2C /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 67CD03FE1C39EA0000FBCD2C /* head.png */; };
+		67CD040A1C39EA0000FBCD2C /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD03FF1C39EA0000FBCD2C /* 3.wav */; };
+		67CD040B1C39EA0000FBCD2C /* 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04001C39EA0000FBCD2C /* 10.wav */; };
+		67CD040C1C39EA0000FBCD2C /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04011C39EA0000FBCD2C /* 6.wav */; };
+		67CD040D1C39EA0000FBCD2C /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04021C39EA0000FBCD2C /* 2.wav */; };
+		67CD040E1C39EA0000FBCD2C /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04031C39EA0000FBCD2C /* 7.wav */; };
+		67CD040F1C39EA0000FBCD2C /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04041C39EA0000FBCD2C /* 4.wav */; };
+		67CD04101C39EA0000FBCD2C /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04051C39EA0000FBCD2C /* 9.wav */; };
+		67CD04111C39EA0000FBCD2C /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04061C39EA0000FBCD2C /* 5.wav */; };
+		67CD04121C39EA0000FBCD2C /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67CD04071C39EA0000FBCD2C /* 1.wav */; };
+		67F7705E1C279EC0009AB032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7705D1C279EC0009AB032 /* main.m */; };
+		67F770611C279EC0009AB032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F770601C279EC0009AB032 /* AppDelegate.m */; };
+		67F770641C279EC0009AB032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F770631C279EC0009AB032 /* ViewController.m */; };
+		67F770671C279EC0009AB032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F770651C279EC0009AB032 /* Main.storyboard */; };
+		67F770691C279EC0009AB032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F770681C279EC0009AB032 /* Assets.xcassets */; };
+		67F7706C1C279EC0009AB032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7706A1C279EC0009AB032 /* LaunchScreen.storyboard */; };
+		67F770771C279EC0009AB032 /* DJKhaledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F770761C279EC0009AB032 /* DJKhaledTests.m */; };
+		67F770821C279EC0009AB032 /* DJKhaledUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F770811C279EC0009AB032 /* DJKhaledUITests.m */; };
+		67F770931C27A496009AB032 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F7708F1C27A496009AB032 /* AudioToolbox.framework */; };
+		67F770981C27A766009AB032 /* abcd.aif in Resources */ = {isa = PBXBuildFile; fileRef = 67F770971C27A766009AB032 /* abcd.aif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67F770731C279EC0009AB032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F770511C279EC0009AB032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F770581C279EC0009AB032;
+			remoteInfo = DJKhaled;
+		};
+		67F7707E1C279EC0009AB032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F770511C279EC0009AB032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F770581C279EC0009AB032;
+			remoteInfo = DJKhaled;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67A235581C2C8AB800CA3B9C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../../Downloads/khaled/ios/Icon-72.png"; sourceTree = "<group>"; };
+		67A235591C2C8AB800CA3B9C /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../../../Downloads/khaled/ios/Icon-Small-50.png"; sourceTree = "<group>"; };
+		67A2355A1C2C8AB800CA3B9C /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "../../../Downloads/khaled/ios/Icon-60.png"; sourceTree = "<group>"; };
+		67A2355B1C2C8AB800CA3B9C /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../../../Downloads/khaled/ios/Icon-72@2x.png"; sourceTree = "<group>"; };
+		67A2355C1C2C8AB800CA3B9C /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "../../../Downloads/khaled/ios/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		67A2355D1C2C8AB800CA3B9C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Downloads/khaled/ios/Icon.png; sourceTree = "<group>"; };
+		67A2355E1C2C8AB800CA3B9C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../Downloads/khaled/ios/Icon@2x.png"; sourceTree = "<group>"; };
+		67A2355F1C2C8AB800CA3B9C /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../../../Downloads/khaled/ios/iTunesArtwork.png; sourceTree = "<group>"; };
+		67A235601C2C8AB800CA3B9C /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../../Downloads/khaled/ios/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		67CD03FD1C39EA0000FBCD2C /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
+		67CD03FE1C39EA0000FBCD2C /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		67CD03FF1C39EA0000FBCD2C /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		67CD04001C39EA0000FBCD2C /* 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10.wav; sourceTree = "<group>"; };
+		67CD04011C39EA0000FBCD2C /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
+		67CD04021C39EA0000FBCD2C /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		67CD04031C39EA0000FBCD2C /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		67CD04041C39EA0000FBCD2C /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		67CD04051C39EA0000FBCD2C /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
+		67CD04061C39EA0000FBCD2C /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		67CD04071C39EA0000FBCD2C /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		67F770591C279EC0009AB032 /* DJKhaled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJKhaled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F7705D1C279EC0009AB032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67F7705F1C279EC0009AB032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67F770601C279EC0009AB032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67F770621C279EC0009AB032 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67F770631C279EC0009AB032 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67F770661C279EC0009AB032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67F770681C279EC0009AB032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67F7706B1C279EC0009AB032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67F7706D1C279EC0009AB032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F770721C279EC0009AB032 /* DJKhaledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJKhaledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F770761C279EC0009AB032 /* DJKhaledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJKhaledTests.m; sourceTree = "<group>"; };
+		67F770781C279EC0009AB032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F7707D1C279EC0009AB032 /* DJKhaledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJKhaledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F770811C279EC0009AB032 /* DJKhaledUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJKhaledUITests.m; sourceTree = "<group>"; };
+		67F770831C279EC0009AB032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F7708F1C27A496009AB032 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		67F770901C27A496009AB032 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		67F770911C27A496009AB032 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		67F770921C27A496009AB032 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		67F770971C27A766009AB032 /* abcd.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = abcd.aif; path = ../../../Desktop/abcd.aif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67F770561C279EC0009AB032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F770931C27A496009AB032 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F7706F1C279EC0009AB032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F7707A1C279EC0009AB032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F770501C279EC0009AB032 = {
+			isa = PBXGroup;
+			children = (
+				67F7708F1C27A496009AB032 /* AudioToolbox.framework */,
+				67F770901C27A496009AB032 /* AudioUnit.framework */,
+				67F770911C27A496009AB032 /* CoreAudio.framework */,
+				67F770921C27A496009AB032 /* CoreAudioKit.framework */,
+				67F7705B1C279EC0009AB032 /* DJKhaled */,
+				67F770751C279EC0009AB032 /* DJKhaledTests */,
+				67F770801C279EC0009AB032 /* DJKhaledUITests */,
+				67F7705A1C279EC0009AB032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67F7705A1C279EC0009AB032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67F770591C279EC0009AB032 /* DJKhaled.app */,
+				67F770721C279EC0009AB032 /* DJKhaledTests.xctest */,
+				67F7707D1C279EC0009AB032 /* DJKhaledUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F7705B1C279EC0009AB032 /* DJKhaled */ = {
+			isa = PBXGroup;
+			children = (
+				67CD03FD1C39EA0000FBCD2C /* 8.wav */,
+				67CD03FE1C39EA0000FBCD2C /* head.png */,
+				67CD03FF1C39EA0000FBCD2C /* 3.wav */,
+				67CD04001C39EA0000FBCD2C /* 10.wav */,
+				67CD04011C39EA0000FBCD2C /* 6.wav */,
+				67CD04021C39EA0000FBCD2C /* 2.wav */,
+				67CD04031C39EA0000FBCD2C /* 7.wav */,
+				67CD04041C39EA0000FBCD2C /* 4.wav */,
+				67CD04051C39EA0000FBCD2C /* 9.wav */,
+				67CD04061C39EA0000FBCD2C /* 5.wav */,
+				67CD04071C39EA0000FBCD2C /* 1.wav */,
+				67F7705F1C279EC0009AB032 /* AppDelegate.h */,
+				67F770601C279EC0009AB032 /* AppDelegate.m */,
+				67F770621C279EC0009AB032 /* ViewController.h */,
+				67F770971C27A766009AB032 /* abcd.aif */,
+				67F770631C279EC0009AB032 /* ViewController.m */,
+				67F770651C279EC0009AB032 /* Main.storyboard */,
+				67F770681C279EC0009AB032 /* Assets.xcassets */,
+				67F7706A1C279EC0009AB032 /* LaunchScreen.storyboard */,
+				67F7706D1C279EC0009AB032 /* Info.plist */,
+				67F7705C1C279EC0009AB032 /* Supporting Files */,
+			);
+			path = DJKhaled;
+			sourceTree = "<group>";
+		};
+		67F7705C1C279EC0009AB032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67A235581C2C8AB800CA3B9C /* Icon-72.png */,
+				67A235591C2C8AB800CA3B9C /* Icon-Small-50.png */,
+				67A2355A1C2C8AB800CA3B9C /* Icon-60.png */,
+				67A2355B1C2C8AB800CA3B9C /* Icon-72@2x.png */,
+				67A2355C1C2C8AB800CA3B9C /* Icon-Small-50@2x.png */,
+				67A2355D1C2C8AB800CA3B9C /* Icon.png */,
+				67A2355E1C2C8AB800CA3B9C /* Icon@2x.png */,
+				67A2355F1C2C8AB800CA3B9C /* iTunesArtwork.png */,
+				67A235601C2C8AB800CA3B9C /* iTunesArtwork@2x.png */,
+				67F7705D1C279EC0009AB032 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67F770751C279EC0009AB032 /* DJKhaledTests */ = {
+			isa = PBXGroup;
+			children = (
+				67F770761C279EC0009AB032 /* DJKhaledTests.m */,
+				67F770781C279EC0009AB032 /* Info.plist */,
+			);
+			path = DJKhaledTests;
+			sourceTree = "<group>";
+		};
+		67F770801C279EC0009AB032 /* DJKhaledUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67F770811C279EC0009AB032 /* DJKhaledUITests.m */,
+				67F770831C279EC0009AB032 /* Info.plist */,
+			);
+			path = DJKhaledUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67F770581C279EC0009AB032 /* DJKhaled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F770861C279EC0009AB032 /* Build configuration list for PBXNativeTarget "DJKhaled" */;
+			buildPhases = (
+				67F770551C279EC0009AB032 /* Sources */,
+				67F770561C279EC0009AB032 /* Frameworks */,
+				67F770571C279EC0009AB032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJKhaled;
+			productName = DJKhaled;
+			productReference = 67F770591C279EC0009AB032 /* DJKhaled.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67F770711C279EC0009AB032 /* DJKhaledTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F770891C279EC0009AB032 /* Build configuration list for PBXNativeTarget "DJKhaledTests" */;
+			buildPhases = (
+				67F7706E1C279EC0009AB032 /* Sources */,
+				67F7706F1C279EC0009AB032 /* Frameworks */,
+				67F770701C279EC0009AB032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67F770741C279EC0009AB032 /* PBXTargetDependency */,
+			);
+			name = DJKhaledTests;
+			productName = DJKhaledTests;
+			productReference = 67F770721C279EC0009AB032 /* DJKhaledTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67F7707C1C279EC0009AB032 /* DJKhaledUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F7708C1C279EC0009AB032 /* Build configuration list for PBXNativeTarget "DJKhaledUITests" */;
+			buildPhases = (
+				67F770791C279EC0009AB032 /* Sources */,
+				67F7707A1C279EC0009AB032 /* Frameworks */,
+				67F7707B1C279EC0009AB032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67F7707F1C279EC0009AB032 /* PBXTargetDependency */,
+			);
+			name = DJKhaledUITests;
+			productName = DJKhaledUITests;
+			productReference = 67F7707D1C279EC0009AB032 /* DJKhaledUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67F770511C279EC0009AB032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nikhil Gahlot";
+				TargetAttributes = {
+					67F770581C279EC0009AB032 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = F9NRAW66H5;
+					};
+					67F770711C279EC0009AB032 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 67F770581C279EC0009AB032;
+					};
+					67F7707C1C279EC0009AB032 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 67F770581C279EC0009AB032;
+					};
+				};
+			};
+			buildConfigurationList = 67F770541C279EC0009AB032 /* Build configuration list for PBXProject "DJKhaled" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67F770501C279EC0009AB032;
+			productRefGroup = 67F7705A1C279EC0009AB032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67F770581C279EC0009AB032 /* DJKhaled */,
+				67F770711C279EC0009AB032 /* DJKhaledTests */,
+				67F7707C1C279EC0009AB032 /* DJKhaledUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67F770571C279EC0009AB032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CD04101C39EA0000FBCD2C /* 9.wav in Resources */,
+				67A235641C2C8AB800CA3B9C /* Icon-72@2x.png in Resources */,
+				67CD04081C39EA0000FBCD2C /* 8.wav in Resources */,
+				67F7706C1C279EC0009AB032 /* LaunchScreen.storyboard in Resources */,
+				67CD040F1C39EA0000FBCD2C /* 4.wav in Resources */,
+				67A235681C2C8AB800CA3B9C /* iTunesArtwork.png in Resources */,
+				67CD040B1C39EA0000FBCD2C /* 10.wav in Resources */,
+				67CD040A1C39EA0000FBCD2C /* 3.wav in Resources */,
+				67A235621C2C8AB800CA3B9C /* Icon-Small-50.png in Resources */,
+				67A235651C2C8AB800CA3B9C /* Icon-Small-50@2x.png in Resources */,
+				67CD040E1C39EA0000FBCD2C /* 7.wav in Resources */,
+				67F770691C279EC0009AB032 /* Assets.xcassets in Resources */,
+				67A235661C2C8AB800CA3B9C /* Icon.png in Resources */,
+				67F770981C27A766009AB032 /* abcd.aif in Resources */,
+				67A235611C2C8AB800CA3B9C /* Icon-72.png in Resources */,
+				67A235671C2C8AB800CA3B9C /* Icon@2x.png in Resources */,
+				67CD04111C39EA0000FBCD2C /* 5.wav in Resources */,
+				67CD04091C39EA0000FBCD2C /* head.png in Resources */,
+				67CD04121C39EA0000FBCD2C /* 1.wav in Resources */,
+				67F770671C279EC0009AB032 /* Main.storyboard in Resources */,
+				67CD040C1C39EA0000FBCD2C /* 6.wav in Resources */,
+				67A235631C2C8AB800CA3B9C /* Icon-60.png in Resources */,
+				67CD040D1C39EA0000FBCD2C /* 2.wav in Resources */,
+				67A235691C2C8AB800CA3B9C /* iTunesArtwork@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F770701C279EC0009AB032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F7707B1C279EC0009AB032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67F770551C279EC0009AB032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F770641C279EC0009AB032 /* ViewController.m in Sources */,
+				67F770611C279EC0009AB032 /* AppDelegate.m in Sources */,
+				67F7705E1C279EC0009AB032 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F7706E1C279EC0009AB032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F770771C279EC0009AB032 /* DJKhaledTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F770791C279EC0009AB032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F770821C279EC0009AB032 /* DJKhaledUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67F770741C279EC0009AB032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67F770581C279EC0009AB032 /* DJKhaled */;
+			targetProxy = 67F770731C279EC0009AB032 /* PBXContainerItemProxy */;
+		};
+		67F7707F1C279EC0009AB032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67F770581C279EC0009AB032 /* DJKhaled */;
+			targetProxy = 67F7707E1C279EC0009AB032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67F770651C279EC0009AB032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F770661C279EC0009AB032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67F7706A1C279EC0009AB032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F7706B1C279EC0009AB032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67F770841C279EC0009AB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Gahlot (5H82U7L2H3)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67F770851C279EC0009AB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Gahlot (5H82U7L2H3)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67F770871C279EC0009AB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DJKhaled/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NikhilGahlot.DJKhaled;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		67F770881C279EC0009AB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DJKhaled/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NikhilGahlot.DJKhaled;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		67F7708A1C279EC0009AB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJKhaledTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NikhilGahlot.DJKhaledTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJKhaled.app/DJKhaled";
+			};
+			name = Debug;
+		};
+		67F7708B1C279EC0009AB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJKhaledTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NikhilGahlot.DJKhaledTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJKhaled.app/DJKhaled";
+			};
+			name = Release;
+		};
+		67F7708D1C279EC0009AB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJKhaledUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NikhilGahlot.DJKhaledUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJKhaled;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		67F7708E1C279EC0009AB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJKhaledUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NikhilGahlot.DJKhaledUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJKhaled;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F770541C279EC0009AB032 /* Build configuration list for PBXProject "DJKhaled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F770841C279EC0009AB032 /* Debug */,
+				67F770851C279EC0009AB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F770861C279EC0009AB032 /* Build configuration list for PBXNativeTarget "DJKhaled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F770871C279EC0009AB032 /* Debug */,
+				67F770881C279EC0009AB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F770891C279EC0009AB032 /* Build configuration list for PBXNativeTarget "DJKhaledTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F7708A1C279EC0009AB032 /* Debug */,
+				67F7708B1C279EC0009AB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F7708C1C279EC0009AB032 /* Build configuration list for PBXNativeTarget "DJKhaledUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F7708D1C279EC0009AB032 /* Debug */,
+				67F7708E1C279EC0009AB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67F770511C279EC0009AB032 /* Project object */;
+}
